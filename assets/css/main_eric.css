@@ -3339,10 +3339,11 @@
 		}
 
 		#header nav {
-			position: absolute;
-			/*background-color: black; */
-			right: 0em;
+			position: fixed;
+			text-align: right;
+			background-color: #333;
 			top: 0;
+			width: 100%
 		}
 
 			#header nav ul {
@@ -3352,7 +3353,6 @@
 				#header nav ul li {
 					display: inline-block;
 					margin-left: 1em;
-
 				}
 
 					#header nav ul li a, #header nav ul li span {
@@ -3362,7 +3362,6 @@
 						height: inherit;
 						line-height: inherit;
 						outline: 0;
-						margin-right: 1em;
 					}
 
 						#header nav ul li a.button, #header nav ul li span.button {
@@ -3398,7 +3397,7 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/jhu_hospital.jpg");
+		/*background-image: url("../../images/jhu_hospital.jpg"); */
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
