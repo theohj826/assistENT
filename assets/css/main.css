@@ -22,6 +22,18 @@
 		display: block;
 	}
 
+iframe {
+    left: 75%;
+    position: absolute;
+    top: 53%;
+    transform: translate(-50%, -50%);
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -1677,7 +1689,7 @@
 
 	h2 {
 		font-size: 2em;
-		line-height: 1.5em;
+		line-height: 1.25em;
 		letter-spacing: -0.025em;
 	}
 
