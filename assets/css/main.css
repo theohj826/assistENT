@@ -2286,7 +2286,7 @@ iframe {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e44c65;
+			border-color: rgb(80,182,167);
 		}
 
 	.select-wrapper {
@@ -2403,7 +2403,7 @@ iframe {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e44c65;
+			border-color: rgb(80,182,167);
 		}
 
 	input[type="checkbox"] + label:before {
@@ -3311,7 +3311,7 @@ iframe {
 			}
 
 			.dropotron > li.active > a, .dropotron > li.active > span {
-				color: #e44c65;
+				color: rgb(80,182,167);
 			}
 
 		.dropotron.level-0 {
@@ -3404,7 +3404,7 @@ iframe {
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: rgb(80,182,176);
 					}
 
 					#header nav ul li > ul {
@@ -3884,7 +3884,7 @@ iframe {
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
+						background: rgb(80,182,167);
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
